@@ -1,0 +1,6 @@
+export enum AuthActionsType {
+  ERROR = 'AUTH/ERROR',
+  SIGNIN = 'AUTH/SIGNIN',
+  SIGNIN_SUCCESS = 'AUTH/SIGNIN_SUCCESS',
+  SIGNOUT = 'AUTH/SIGNOUT',
+};

@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "jsx": "react-native",
+      "lib": ["esnext"],
+      "module": "es2015",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "target": "esnext",
+      "baseUrl": "./",
+      "paths": {
+            "*": ["types/*"],
+            "@Api/*": ["./src/Api/*"],
+            "@Assets/*": ["./src/Assets/*"],
+            "@Components/*": ["./src/Components/*"],
+            "@Configuration/*": ["./src/Configuration/*"],
+            "@Controllers/*": ["./src/Controllers/*"],
+            "@Interfaces/*": ["./src/Interfaces/*"],
+            "@Modules/*": ["./src/Modules/*"],
+            "@Redux/*": ["./src/Redux/*"],
+            "@Screens/*": ["./src/Screens/*"],
+            "@Utilities/*": ["./src/Utilities/*"],
+            "@Tests/*": ["./Tests/*"],
+        }
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js",
+      "Test/**/*-test.ts"
+    ]
+  }
